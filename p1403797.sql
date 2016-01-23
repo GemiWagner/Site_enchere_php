@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 23 Janvier 2016 à 14:02
+-- Généré le :  Sam 23 Janvier 2016 à 14:07
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -80,12 +80,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id_u`, `nom`, `mdp`, `login`, `adresse`, `tel`) VALUES
 (1, 'admin', 'admin123', 'admin', 'romaint69@gmail.com', '0600000000'),
-(2, 'test', 'test1', 'testeur', 'test 6466', '0457954654'),
-(3, 'jojo', 'bernard1', 'bernard', '456 rue de la chnouffe', '0455663322'),
-(4, 'jacques', 'azerty', 'Jaco', '479 rue de la rue', '0577665522'),
-(5, 'Paul', 'claudel', 'Claudel', '2 rue jean moulin', '0472369742'),
-(6, 'Paul', 'claudel', 'Claudel', '7 rue Carton', '0472369742'),
-(7, 'Prez', 'lololol', 'moi', 'moimoi@gmail.com', '0475659632');
+(7, 'Prez', 'prezprez', 'moi', 'moimoi@gmail.com', '0475659632');
 
 -- --------------------------------------------------------
 
